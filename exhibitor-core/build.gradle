@@ -1,7 +1,7 @@
 apply plugin: 'nebula.provided-base'
 
 dependencies {
-    compile('org.apache.zookeeper:zookeeper:3.4.5') {
+    compile('org.apache.zookeeper:zookeeper:3.4.9') {
         exclude group: 'com.sun.jmx', module: 'jmxri'
         exclude group: 'com.sun.jdmk', module: 'jmxtools'
         exclude group: 'javax.jms', module: 'jms'
